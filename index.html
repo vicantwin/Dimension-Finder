@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dimension Finder</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <h1><b>Saayuj's Dimension Finder</b></h1>
+    <h2>Enter the Total Surface Area of the Cuboid:</h2>
+    <input id="tsa" placeholder="TSA Here..." type="number" />
+    <button id="submit">Check for Dimensions</button>
+    <br />
+    <p>
+      <b>Please Note:</b><br />
+      ONLY CONTINUE IF YOUR DEVICE CAN HANDLE IT! <br />
+      This <b>BRUTE FORCES</b> every possible combination to find the
+      dimensions. <br />
+      <b id="emphasis">Your number <sup>3</sup>!</b>
+      <br />
+      Therefore, choosing numbers higher than 200 will have have a high chance
+      of lagging your device than a single digit number.
+    </p>
+    <br />
+    <div id="results"></div>
+    <br />
+  </body>
+</html>
